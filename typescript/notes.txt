@@ -1,0 +1,21 @@
+install typescript
+    - npm install -g typescript
+
+typescript cmd (view all typescript command)
+    - npx tsc
+
+continue watch cmd
+    npx tsc script.ts --watch
+
+if you want target js version
+    npx tsc script.ts --target es2020 --watch
+
+
+if you want to set js file name that auto generate
+    npx tsc script.ts --outFile customscript.js
+
+if you want to generate js file in folder
+    npx tsc script.ts --ourDir dist --watch
+
+    
+
